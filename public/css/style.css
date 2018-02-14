@@ -1,0 +1,55 @@
+.jumbotron {
+  background: url(../images/bay_bridge.jpg);
+  background-size: cover;
+  border-radius: 0;
+  min-height: 80vh;
+  padding: 0;
+  margin: 0;
+  ;
+}
+
+.container-fluid {
+  margin-top: -1rem;
+}
+
+.spanish {
+  background: #EE4C4C;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.spanish p {
+  margin-bottom: 0;
+}
+
+.intro {
+  background: #314D6F;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.wc>.col, .nfl>.col, .section-img {
+  padding: 0;
+}
+
+footer {
+  background: #232731;
+  color: #ffffff;
+}
+
+.form-control {
+  padding: .75rem .75rem;
+  font-size: 1rem;
+  color: #495057;
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  color: #e7e7e7;
+  background-color: transparent;
+  border-color: #eaeaea;
+}
