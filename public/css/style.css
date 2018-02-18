@@ -1,3 +1,9 @@
+html,body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', sans-serif;
+}
 .jumbotron {
   background: url(../images/bay_bridge.jpg);
   background-size: cover;
@@ -5,9 +11,11 @@
   min-height: 80vh;
   padding: 0;
   margin: 0;
-  ;
 }
-
+.home-text {
+  margin-top: 6rem;
+  color: #ffffff;
+}
 .container-fluid {
   margin-top: -1rem;
 }
@@ -21,6 +29,11 @@
 
 .spanish p {
   margin-bottom: 0;
+}
+
+.spanish p span {
+  font-weight: 500;
+  font-style: italic;
 }
 
 .intro {
