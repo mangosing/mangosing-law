@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6 {
   min-height: 80vh;
   padding: 0;
   margin: 0;
+  padding-bottom: 3rem;
 }
 .home-text {
   margin-top: 6rem;
@@ -26,7 +27,15 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 1.25rem;
   font-weight: 100;
 }
-
+.spanish a:link {
+  color: #ffffff;
+}
+.spanish a:visited {
+  color: #ffffff;
+}
+.spanish a:hover {
+  color: #f8f8f8;
+}
 .spanish p {
   margin-bottom: 0;
 }
@@ -47,6 +56,13 @@ h1,h2,h3,h4,h5,h6 {
   padding: 0;
 }
 
+.about-header {
+  border-bottom: 1px solid #C1BEBE;
+  margin-bottom: 2rem;
+}
+.profile {
+  margin-bottom: 2rem;
+}
 footer {
   background: #232731;
   color: #ffffff;

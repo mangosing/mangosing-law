@@ -15,6 +15,10 @@ app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
   res.render('pages/index');
+});
+
+app.get('/about', (req,res) => {
+  res.render('pages/about');
 })
 
 app.listen(PORT, () => {
