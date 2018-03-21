@@ -14,12 +14,15 @@ app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-  res.render('pages/index');
+  res.render('pages/landing');
 });
 
-app.get('/about', (req,res) => {
-  res.render('pages/about');
-})
+// app.get('/about', (req, res) => {
+//   res.render('pages/about');
+// })
+// app.get('/practice', (req, res) => {
+//   res.render('pages/practice_areas');
+// })
 
 app.listen(PORT, () => {
   console.log(`The server is listening on port ${PORT}.`)

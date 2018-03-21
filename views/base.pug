@@ -14,9 +14,10 @@ html(lang="en")
     link(rel="stylesheet" href="css/style.css")
     title Mangosing Group Law
   body
-    div(class="jumbotron")
-      include partials/navigation.pug
-      include partials/home_jumbo_text.pug
+    include partials/navigation.pug
+    main(role="main")
+      div(class="jumbotron d-flex align-items-center")
+        include partials/home_jumbo_text.pug
 
 
 
