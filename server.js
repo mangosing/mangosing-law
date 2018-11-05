@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-  res.render('pages/landing');
+  res.render('pages/index');
 });
 
 // app.get('/about', (req, res) => {
