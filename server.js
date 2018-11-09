@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 //set templating engine
 app.set('view engine', 'pug');
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + "/public"));
 
 app.use(morgan('dev'));
 

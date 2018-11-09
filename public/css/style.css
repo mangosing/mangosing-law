@@ -1,0 +1,60 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    background: transparent;
+    transition: background-color 0.5s ease;
+}
+.bold {
+    font-weight: 500;
+}
+.hero {
+    background: url(/images/bay_bridge.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+.intro {
+    background-color: #314D6F;
+    color: #ffffff;
+}
+.practice {
+    background: 
+    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('/images/practice_areas_bg.jpg');
+    background-size: cover;
+}
+.practice div.secTitle, .client-reviews div.secTitle {
+    margin-bottom: 30px;
+}
+.practice h2, .client-reviews h2{
+    font-weight: 300;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+.practice h2 {
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.client-reviews article {
+    font-style: italic;
+}
+.card-content p:first-of-type {
+    margin-bottom: 15px;
+}
+.card-content p:last-of-type {
+    font-size: 14px;
+    font-weight: 100;
+}
+.footer {
+    background-color: #232731;
+    color: #ffffff;
+}
+.footer img {
+    margin-bottom: 30px;
+}
+.footer p {
+    margin-bottom: 15px;
+}
