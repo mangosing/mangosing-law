@@ -17,9 +17,9 @@ app.get('/', (req, res) => {
   res.render('pages/index');
 });
 
-// app.get('/about', (req, res) => {
-//   res.render('pages/about');
-// })
+app.get('/about', (req, res) => {
+  res.render('pages/about');
+})
 // app.get('/practice', (req, res) => {
 //   res.render('pages/practice_areas');
 // })
