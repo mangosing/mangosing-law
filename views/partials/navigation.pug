@@ -1,21 +1,22 @@
-nav(class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark")
+nav(class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation")
   div(class="container")
-     a(class="navbar-brand" href="/")
-       img(srcset="/images/horizontal_logo.svg" class="img-fluid")
-     button(
-     class="navbar-toggler"
-       type="button"
-       data-toggle="collapse"
-       data-target="#navbarTogglerDemo01"
-       aria-controls="navbarTogglerDemo01"
-       aria-expanded="false"
-       aria-label="Toggle navigation"
-     ): span(class="navbar-toggler-icon")
-     div(
-       class="collapse navbar-collapse justify-content-end"
-       id="navbarTogglerDemo01"
-     )
-       ul(class="navbar-nav")
-         li(class="nav-item d-flex align-items-center justify-content-center p-3"): a(class="nav-link" href='/about') ABOUT US
-         li(class="nav-item d-flex align-items-center justify-content-center p-3"): a(class="nav-link" href='/practice') PRACTICE AREAS
-         li(class="nav-item d-flex align-items-center justify-content-center p-3"): button(class="btn btn-outline-light" type="button") CONTACT US
+    div(class="navbar-brand")
+      a(class="navbar-item" href="/")
+        img(src="images/horizontal_logo.svg")
+
+      a(role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample")
+        span(aria-hidden="true")
+        span(aria-hidden="true")
+        span(aria-hidden="true")
+
+    div(id="navbarBasicExample" class="navbar-menu")
+
+      div(class="navbar-end")
+        a(class="navbar-item" href="/about") Meet The Team
+
+
+section(class="hero")
+  div(class="hero-body")
+    //- div(class="container")
+    //-   h1(class="title") Hero title
+    //-   h2(class="subtitle") Hero subtitle

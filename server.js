@@ -9,17 +9,17 @@ const PORT = process.env.PORT || 5000;
 
 //set templating engine
 app.set('view engine', 'pug');
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + "/public"));
 
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-  res.render('pages/landing');
+  res.render('pages/index');
 });
 
-// app.get('/about', (req, res) => {
-//   res.render('pages/about');
-// })
+app.get('/about', (req, res) => {
+  res.render('pages/about');
+})
 // app.get('/practice', (req, res) => {
 //   res.render('pages/practice_areas');
 // })

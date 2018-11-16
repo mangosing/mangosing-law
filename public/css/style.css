@@ -1,172 +1,56 @@
-/*
- * Globals
- */
-
-/* Fonts */
-
 html, body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway', sans-serif;
 }
-
-/* Links */
-
-a, a:focus, a:hover {
-  color: #fff;
+.navbar {
+    background: transparent;
+    transition: background-color 0.5s ease;
 }
-
-/*
- * Base structure
- */
-
-html, body {
-  height: 100%;
-  background: linear-gradient(to right, rgba(19, 48, 73, .8), rgba(19, 48, 73, .8)), url('/images/gg_bridge.jpg');
-  background-size: cover;
-  margin: 0;
+.bold {
+    font-weight: 500;
 }
-
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+.hero {
+    background: url(/images/bay_bridge.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
 }
-
-.cover-container {
-  max-width: 57rem;
-  padding: 3rem .5rem .5rem .5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
-  width: 525px;
-  height: auto;
-}
-
-main {
-  text-align: center;
-}
-
-main h1 {
-  padding-top: 3rem;
-}
-
-main h1>span {
-  font-style: italic;
-  font-weight: 100;
-  color: rgb(224, 97, 97);
-}
-
-main p {
-  font-weight: 300;
-  line-height: 1.6;
-}
-
-.contact-info {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-}
-
-.contact-info li {
-  display: inline-block;
-  padding: .75rem 1rem;
-  font-weight: 300;
-}
-
-footer p {
-  color: rgb(94, 94, 94);
-}
-
-/* .jumbotron {
-  background: url(../images/bay_bridge.jpg);
-  background-size: cover;
-  background-position: center center;
-  border-radius: 0;
-  min-height: 90vh;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 3rem;
-}
-.home-text {
-  margin-top: 6rem;
-  color: #ffffff;
-}
-.container-fluid {
-  margin-top: -1rem;
-}
-
-.spanish {
-  background: #EE4C4C;
-  color: #ffffff;
-  font-size: 1.25rem;
-  font-weight: 100;
-}
-.spanish a:link {
-  color: #ffffff;
-}
-.spanish a:visited {
-  color: #ffffff;
-}
-.spanish a:hover {
-  color: #f8f8f8;
-}
-.spanish p {
-  margin-bottom: 0;
-}
-
-.spanish p span {
-  font-weight: 500;
-  font-style: italic;
-}
-
 .intro {
-  background: #314D6F;
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: 100;
+    background-color: #314D6F;
+    color: #ffffff;
 }
-
-.wc>.col, .nfl>.col, .section-img {
-  padding: 0;
+.practice {
+    background: 
+    linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('/images/practice_areas_bg.jpg');
+    background-size: cover;
 }
-
-.about-header {
-  border-bottom: 1px solid #C1BEBE;
-  margin-bottom: 2rem;
+.practice div.secTitle, .client-reviews div.secTitle {
+    margin-bottom: 30px;
 }
-.profile {
-  margin-bottom: 2rem;
+.practice h2, .client-reviews h2{
+    font-weight: 300;
+    font-size: 1.75rem;
+    text-transform: uppercase;
 }
-footer {
-  background: #232731;
-  color: #ffffff;
+.practice h2 {
+    line-height: 1.2;
+    margin-bottom: 15px;
 }
-
-.form-control {
-  padding: .75rem .75rem;
-  font-size: 1rem;
-  color: #495057;
-  background-color: transparent;
-  border: 1px solid #ced4da;
-  border-radius: 0;
+.client-reviews article {
+    font-style: italic;
 }
-
-.form-control:focus {
-  color: #e7e7e7;
-  background-color: transparent;
-  border-color: #eaeaea;
-} */
+.card {
+    box-shadow: none;
+}
+.footer {
+    background-color: #232731;
+    color: #ffffff;
+}
+.footer img {
+    margin-bottom: 30px;
+}
+.footer p {
+    margin-bottom: 15px;
+}
